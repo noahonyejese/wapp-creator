@@ -1,0 +1,1 @@
+wapp create -n app -t prod -f next -d shadcn -m -T --testing jest,cypress,playwright,k6 -i -l en,fr,de -s -S trpc -F nextauth,rtdb-firebase,firestore,stripe,accent,supabase,storage-firebase,sentry,resend,zustand
